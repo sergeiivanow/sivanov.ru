@@ -27,8 +27,33 @@
 .App-photo {
   align-self: flex-end;
   width: 50vw;
+  max-width: 500px;
 }
 
 .App-link {
-  color: #61dafb;
+  font-size: calc(20px + 10vmin);
 }
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
