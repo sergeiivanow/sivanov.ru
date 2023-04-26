@@ -3,11 +3,12 @@ import Image from 'next/image';
 import styles from '../styles/layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
+import { ReactElement } from 'react';
 
 const name = 'Сергей Иванов';
 export const siteTitle = 'Сергей Иванов';
 
-export default function Layout({ children, blog, home, post }) {
+export default function Layout({ children, blog, home, post }: { children: ReactElement[], blog?: boolean, home?: boolean, post?: boolean}) {
   return (
     <div className={styles.container}>
       <Head>
