@@ -21,6 +21,8 @@ export default function Home() {
       <Link href={`https://github.com/sergeiivanow`}>Git Hub</Link>
       <br/>
       <Link href={`/blog`}>Блог</Link>
+      <br/>
+      <Link href={`/experience`}>Опыт</Link>
     </Layout>
   );
 }
